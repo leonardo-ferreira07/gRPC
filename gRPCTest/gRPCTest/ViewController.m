@@ -11,9 +11,7 @@
 // TESTING GRPC CALL
 #import <GRPCClient/GRPCCall+ChannelArg.h>
 #import <GRPCClient/GRPCCall+Tests.h>
-#import "geofencing/Geofencing.pbrpc.h"
-#import "geofencing/Location.pbobjc.h"
-#import "geofencing/DevicePlatform.pbobjc.h"
+#import <B2Beauty-ProtoRPC/Location.pbobjc.h>
 // TESTING GRPC CALL
 
 @interface ViewController ()
@@ -39,31 +37,31 @@
 
 
 - (void)performCallToServer {
-    static NSString * const kHostAddress = @"lalalala";
+//    static NSString * const kHostAddress = @"lalalala";
+//
+//    [GRPCCall useInsecureConnectionsForHost:kHostAddress];
+//
+//    Geofencing *client = [[Geofencing alloc] initWithHost:kHostAddress];
 
-    [GRPCCall useInsecureConnectionsForHost:kHostAddress];
-
-    Geofencing *client = [[Geofencing alloc] initWithHost:kHostAddress];
-
-    Location *location = [[Location alloc] init];
-    location.latitude = -25.442221;
-    location.longitude = -49.294378;
-
-    CreateEventRequest *request = [CreateEventRequest new];
-
-    request.name = @"lalala";
-    request.location = location;
-    request.userId = @"1234";
-    request.businessId = @"4321";
-    request.platform = DevicePlatform_Ios;
-    request.transition = Transition_Enter;
-    
-
-    [client createEventWithRequest:request handler:^(CreateEventResponse *response, NSError *error) {
-        if(response.success) {
-            NSLog(@"success gRPC");
-        }
-    }];
+    B2BTypeLocation *location = [[B2BTypeLocation alloc] init];
+//    location.latitude = -25.442221;
+//    location.longitude = -49.294378;
+//
+//    CreateEventRequest *request = [CreateEventRequest new];
+//
+//    request.name = @"lalala";
+//    request.location = location;
+//    request.userId = @"1234";
+//    request.businessId = @"4321";
+//    request.platform = DevicePlatform_Ios;
+//    request.transition = Transition_Enter;
+//    
+//
+//    [client createEventWithRequest:request handler:^(CreateEventResponse *response, NSError *error) {
+//        if(response.success) {
+//            NSLog(@"success gRPC");
+//        }
+//    }];
 }
 
 

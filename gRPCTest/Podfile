@@ -8,5 +8,6 @@ install! 'cocoapods', :deterministic_uuids => false
 target 'gRPCTest' do
     pod 'Protobuf'
     pod 'gRPC-ProtoRPC'
-end
 
+    pod 'B2Beauty-ProtoRPC', path: '.'
+end

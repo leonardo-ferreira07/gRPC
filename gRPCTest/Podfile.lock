@@ -1,4 +1,5 @@
 PODS:
+  - B2Beauty-ProtoRPC (0.0.1)
   - BoringSSL (6.0):
     - BoringSSL/Implementation (= 6.0)
     - BoringSSL/Interface (= 6.0)
@@ -23,10 +24,16 @@ PODS:
   - Protobuf (3.1.0)
 
 DEPENDENCIES:
+  - B2Beauty-ProtoRPC (from `.`)
   - gRPC-ProtoRPC
   - Protobuf
 
+EXTERNAL SOURCES:
+  B2Beauty-ProtoRPC:
+    :path: .
+
 SPEC CHECKSUMS:
+  B2Beauty-ProtoRPC: e5708bda3e8039057a60974439e23a736a6f28cd
   BoringSSL: 8de34f3100d671c9cbc494e1a462004c486d7e34
   gRPC: 2d6b82f7a8773f933465bcbdf519a7cf8ebef41c
   gRPC-Core: 7ce9d18a7fb9fffc0f57646608d0741782b16996
@@ -34,6 +41,6 @@ SPEC CHECKSUMS:
   gRPC-RxLibrary: 3a8c5543115fb2183ed5624678e7ecbac5e9e4ad
   Protobuf: 265e9977d04a83eba9cefb0bed3ad07e41033b4a
 
-PODFILE CHECKSUM: 8ceabd448569ca96ce2ba85b6d94c16a3125bfe8
+PODFILE CHECKSUM: 070031a2a8c316c8fdfcb1d25f0c82c648c6c300
 
 COCOAPODS: 1.1.1
