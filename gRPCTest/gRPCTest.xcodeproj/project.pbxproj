@@ -16,7 +16,6 @@
 		A7416E1A1DC9FFF3003AD6DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7416E181DC9FFF3003AD6DE /* LaunchScreen.storyboard */; };
 		A7416E251DC9FFF3003AD6DE /* gRPCTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7416E241DC9FFF3003AD6DE /* gRPCTestTests.m */; };
 		A7416E301DC9FFF3003AD6DE /* gRPCTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7416E2F1DC9FFF3003AD6DE /* gRPCTestUITests.m */; };
-		A7416E571DCA1DA1003AD6DE /* b2beauty in Resources */ = {isa = PBXBuildFile; fileRef = A7416E561DCA1DA1003AD6DE /* b2beauty */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		002BE2D9898CDA1B729A2F72 /* libPods-gRPCTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gRPCTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		391F69B21DCA631400DAFB7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		391F69B41DCA631400DAFB7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		A7416E071DC9FFF3003AD6DE /* gRPCTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gRPCTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7416E0B1DC9FFF3003AD6DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A7416E0D1DC9FFF3003AD6DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,7 +55,6 @@
 		A7416E2B1DC9FFF3003AD6DE /* gRPCTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gRPCTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7416E2F1DC9FFF3003AD6DE /* gRPCTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gRPCTestUITests.m; sourceTree = "<group>"; };
 		A7416E311DC9FFF3003AD6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7416E561DCA1DA1003AD6DE /* b2beauty */ = {isa = PBXFileReference; lastKnownFileType = folder; name = b2beauty; path = /Users/Leonardo/Documents/gRPC/gRPCTest/gRPCTest/b2beauty; sourceTree = "<absolute>"; };
 		B44560C300FCE58E74315968 /* Pods-gRPCTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gRPCTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gRPCTest/Pods-gRPCTest.debug.xcconfig"; sourceTree = "<group>"; };
 		CF843AFAE9EA75386121A921 /* Pods-gRPCTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gRPCTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-gRPCTest/Pods-gRPCTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +85,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		391F69B01DCA631400DAFB7F /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				391F69B11DCA631400DAFB7F /* LaunchScreen.storyboard */,
+				391F69B31DCA631400DAFB7F /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = gRPCTest/Base.lproj;
+			sourceTree = "<group>";
+		};
 		76A40143E9DB0C39AF12737A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,7 +129,6 @@
 		A7416E091DC9FFF3003AD6DE /* gRPCTest */ = {
 			isa = PBXGroup;
 			children = (
-				A75654F31DCA2310009A38CB /* files */,
 				A7416E0D1DC9FFF3003AD6DE /* AppDelegate.h */,
 				A7416E0E1DC9FFF3003AD6DE /* AppDelegate.m */,
 				A7416E101DC9FFF3003AD6DE /* ViewController.h */,
@@ -159,16 +168,10 @@
 			path = gRPCTestUITests;
 			sourceTree = "<group>";
 		};
-		A75654F31DCA2310009A38CB /* files */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = files;
-			sourceTree = "<group>";
-		};
 		C89DE064E29A0F966A37CD4F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				391F69B01DCA631400DAFB7F /* Base.lproj */,
 				002BE2D9898CDA1B729A2F72 /* libPods-gRPCTest.a */,
 			);
 			name = Frameworks;
@@ -285,7 +288,6 @@
 			files = (
 				A7416E1A1DC9FFF3003AD6DE /* LaunchScreen.storyboard in Resources */,
 				A7416E171DC9FFF3003AD6DE /* Assets.xcassets in Resources */,
-				A7416E571DCA1DA1003AD6DE /* b2beauty in Resources */,
 				A7416E151DC9FFF3003AD6DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +399,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		391F69B11DCA631400DAFB7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				391F69B21DCA631400DAFB7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		391F69B31DCA631400DAFB7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				391F69B41DCA631400DAFB7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		A7416E131DC9FFF3003AD6DE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -510,11 +528,42 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B44560C300FCE58E74315968 /* Pods-gRPCTest.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = gRPCTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/BoringSSL\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Protobuf\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/gRPC\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/gRPC-Core\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/gRPC-ProtoRPC\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/gRPC-RxLibrary\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"BoringSSL\"",
+					"-l\"Protobuf\"",
+					"-l\"gRPC\"",
+					"-l\"gRPC-Core\"",
+					"-l\"gRPC-ProtoRPC\"",
+					"-l\"gRPC-RxLibrary\"",
+					"-l\"z\"",
+					"-I\"b2beauty/type/",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.testing.gRPCTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "gRPCTest/b2beauty/**";
 			};
 			name = Debug;
 		};
@@ -522,11 +571,42 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CF843AFAE9EA75386121A921 /* Pods-gRPCTest.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = gRPCTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/BoringSSL\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Protobuf\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/gRPC\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/gRPC-Core\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/gRPC-ProtoRPC\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/gRPC-RxLibrary\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"BoringSSL\"",
+					"-l\"Protobuf\"",
+					"-l\"gRPC\"",
+					"-l\"gRPC-Core\"",
+					"-l\"gRPC-ProtoRPC\"",
+					"-l\"gRPC-RxLibrary\"",
+					"-l\"z\"",
+					"-I\"b2beauty/type/",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.testing.gRPCTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "gRPCTest/b2beauty/**";
 			};
 			name = Release;
 		};
