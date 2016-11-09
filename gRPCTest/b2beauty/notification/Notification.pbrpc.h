@@ -1,10 +1,10 @@
-#import "b2beauty/notification/Notification.pbobjc.h"
+#import <B2Beauty-ProtoRPC/Notification.pbobjc.h>
 
 #import <ProtoRPC/ProtoService.h>
 #import <RxLibrary/GRXWriteable.h>
 #import <RxLibrary/GRXWriter.h>
 
-#import "b2beauty/type/DevicePlatform.pbobjc.h"
+#import <B2Beauty-ProtoRPC/DevicePlatform.pbobjc.h>
 
 
 NS_ASSUME_NONNULL_BEGIN

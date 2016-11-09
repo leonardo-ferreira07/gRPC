@@ -1,4 +1,5 @@
-#import "b2beauty/notification/broker/Firebase.pbrpc.h"
+//#import "b2beauty/notification/broker/Firebase.pbrpc.h"
+ #import <B2Beauty-ProtoRPC/Firebase.pbrpc.h>
 
 #import <ProtoRPC/ProtoRPC.h>
 #import <RxLibrary/GRXWriter+Immediate.h>

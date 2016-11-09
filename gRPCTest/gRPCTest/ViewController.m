@@ -11,7 +11,12 @@
 // TESTING GRPC CALL
 #import <GRPCClient/GRPCCall+ChannelArg.h>
 #import <GRPCClient/GRPCCall+Tests.h>
+
+#import <GRPCClient/GRPCCall+ChannelArg.h>
+#import <GRPCClient/GRPCCall+Tests.h>
+#import <B2Beauty-ProtoRPC/Geofencing.pbrpc.h>
 #import <B2Beauty-ProtoRPC/Location.pbobjc.h>
+#import <B2Beauty-ProtoRPC/DevicePlatform.pbobjc.h>
 // TESTING GRPC CALL
 
 @interface ViewController ()
@@ -37,31 +42,33 @@
 
 
 - (void)performCallToServer {
-//    static NSString * const kHostAddress = @"lalalala";
-//
-//    [GRPCCall useInsecureConnectionsForHost:kHostAddress];
-//
-//    Geofencing *client = [[Geofencing alloc] initWithHost:kHostAddress];
+    static NSString * const kHostAddress = @"lalala";
+
+    [GRPCCall useInsecureConnectionsForHost:kHostAddress];
+
+    B2BGeofencingGeofencing *client = [[B2BGeofencingGeofencing alloc] initWithHost:kHostAddress];
 
     B2BTypeLocation *location = [[B2BTypeLocation alloc] init];
-//    location.latitude = -25.442221;
-//    location.longitude = -49.294378;
-//
-//    CreateEventRequest *request = [CreateEventRequest new];
-//
-//    request.name = @"lalala";
-//    request.location = location;
-//    request.userId = @"1234";
-//    request.businessId = @"4321";
-//    request.platform = DevicePlatform_Ios;
-//    request.transition = Transition_Enter;
-//    
-//
-//    [client createEventWithRequest:request handler:^(CreateEventResponse *response, NSError *error) {
-//        if(response.success) {
-//            NSLog(@"success gRPC");
-//        }
-//    }];
+    location.latitude = -25.442221;
+    location.longitude = -49.294378;
+
+    B2BGeofencingCreateEventRequest *request = [B2BGeofencingCreateEventRequest new];
+
+    request.name = @"lalala";
+    request.location = location;
+    request.userId = @"1234";
+    request.businessId = @"4321";
+    request.platform = B2BTypeDevicePlatform_Ios;
+    request.transition = B2BGeofencingTransition_Enter;
+    
+
+    [client createEventWithRequest:request handler:^(B2BGeofencingCreateEventResponse *response, NSError *error) {
+        if(response.success) {
+            NSLog(@"success gRPC");
+        } else {
+            NSLog(@"fail gRPC");
+        }
+    }];
 }
 
 

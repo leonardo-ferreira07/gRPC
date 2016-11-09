@@ -1,4 +1,4 @@
-#import "b2beauty/notification/broker/Locasms.pbrpc.h"
+#import <B2Beauty-ProtoRPC/Locasms.pbrpc.h>
 
 #import <ProtoRPC/ProtoRPC.h>
 #import <RxLibrary/GRXWriter+Immediate.h>

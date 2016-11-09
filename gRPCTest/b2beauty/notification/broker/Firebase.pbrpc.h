@@ -1,11 +1,12 @@
-#import "b2beauty/notification/broker/Firebase.pbobjc.h"
+//#import "b2beauty/notification/broker/Firebase.pbobjc.h"
+ #import <B2Beauty-ProtoRPC/Firebase.pbobjc.h>
 
 #import <ProtoRPC/ProtoService.h>
 #import <RxLibrary/GRXWriteable.h>
 #import <RxLibrary/GRXWriter.h>
 
-#import "b2beauty/notification/broker/Push.pbobjc.h"
-
+//#import "b2beauty/notification/broker/Push.pbobjc.h"
+ #import <B2Beauty-ProtoRPC/Push.pbobjc.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

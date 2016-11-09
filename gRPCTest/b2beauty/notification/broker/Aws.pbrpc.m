@@ -1,4 +1,5 @@
-#import "b2beauty/notification/broker/Aws.pbrpc.h"
+//#import "b2beauty/notification/broker/Aws.pbrpc.h"
+ #import <B2Beauty-ProtoRPC/Aws.pbrpc.h>
 
 #import <ProtoRPC/ProtoRPC.h>
 #import <RxLibrary/GRXWriter+Immediate.h>

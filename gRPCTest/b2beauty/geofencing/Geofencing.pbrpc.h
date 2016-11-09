@@ -1,11 +1,12 @@
-#import "b2beauty/geofencing/Geofencing.pbobjc.h"
+//#import "b2beauty/geofencing/Geofencing.pbobjc.h"
+#import <B2Beauty-ProtoRPC/Geofencing.pbobjc.h>
 
 #import <ProtoRPC/ProtoService.h>
 #import <RxLibrary/GRXWriteable.h>
 #import <RxLibrary/GRXWriter.h>
 
-#import "b2beauty/type/Location.pbobjc.h"
-#import "b2beauty/type/DevicePlatform.pbobjc.h"
+#import <B2Beauty-ProtoRPC/Location.pbobjc.h>
+#import <B2Beauty-ProtoRPC/DevicePlatform.pbobjc.h>
 
 
 NS_ASSUME_NONNULL_BEGIN
