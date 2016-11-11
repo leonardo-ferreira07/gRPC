@@ -1,4 +1,5 @@
-#import "b2beauty/geofencing/Geofencing.pbrpc.h"
+//#import "b2beauty/geofencing/Geofencing.pbrpc.h"
+#import <B2Beauty-ProtoRPC/Geofencing.pbrpc.h>
 
 #import <ProtoRPC/ProtoRPC.h>
 #import <RxLibrary/GRXWriter+Immediate.h>

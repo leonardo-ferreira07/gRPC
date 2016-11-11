@@ -1,10 +1,10 @@
-#import "b2beauty/notification/broker/Zenvia.pbobjc.h"
+#import <B2Beauty-ProtoRPC/Zenvia.pbobjc.h>
 
 #import <ProtoRPC/ProtoService.h>
 #import <RxLibrary/GRXWriteable.h>
 #import <RxLibrary/GRXWriter.h>
 
-#import "b2beauty/notification/broker/Sms.pbobjc.h"
+#import <B2Beauty-ProtoRPC/Sms.pbobjc.h>
 
 
 NS_ASSUME_NONNULL_BEGIN

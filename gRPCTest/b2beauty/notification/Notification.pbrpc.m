@@ -1,4 +1,4 @@
-#import "b2beauty/notification/Notification.pbrpc.h"
+#import <B2Beauty-ProtoRPC/Notification.pbrpc.h>
 
 #import <ProtoRPC/ProtoRPC.h>
 #import <RxLibrary/GRXWriter+Immediate.h>

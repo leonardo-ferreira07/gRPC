@@ -1,4 +1,4 @@
-#import "b2beauty/tracking/Tracking.pbrpc.h"
+#import <B2Beauty-ProtoRPC/Tracking.pbrpc.h>
 
 #import <ProtoRPC/ProtoRPC.h>
 #import <RxLibrary/GRXWriter+Immediate.h>

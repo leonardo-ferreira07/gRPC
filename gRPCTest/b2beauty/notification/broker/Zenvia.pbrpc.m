@@ -1,4 +1,4 @@
-#import "b2beauty/notification/broker/Zenvia.pbrpc.h"
+#import <B2Beauty-ProtoRPC/Zenvia.pbrpc.h>
 
 #import <ProtoRPC/ProtoRPC.h>
 #import <RxLibrary/GRXWriter+Immediate.h>
