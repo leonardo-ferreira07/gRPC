@@ -1,5 +1,9 @@
 PODS:
-  - B2Beauty-ProtoRPC (0.0.1)
+  - B2Beauty-ProtoRPC (0.0.15):
+    - B2Beauty-ProtoRPC/Messages (= 0.0.15)
+    - B2Beauty-ProtoRPC/Services (= 0.0.15)
+  - B2Beauty-ProtoRPC/Messages (0.0.15)
+  - B2Beauty-ProtoRPC/Services (0.0.15)
   - BoringSSL (6.0):
     - BoringSSL/Implementation (= 6.0)
     - BoringSSL/Interface (= 6.0)
@@ -33,7 +37,7 @@ EXTERNAL SOURCES:
     :path: .
 
 SPEC CHECKSUMS:
-  B2Beauty-ProtoRPC: 8766ba5e57a77f507d49e5d82c9ed825de6e801d
+  B2Beauty-ProtoRPC: 211c038c6bff8537024a6618142feb5e82c3ac90
   BoringSSL: 8de34f3100d671c9cbc494e1a462004c486d7e34
   gRPC: 2d6b82f7a8773f933465bcbdf519a7cf8ebef41c
   gRPC-Core: 7ce9d18a7fb9fffc0f57646608d0741782b16996
