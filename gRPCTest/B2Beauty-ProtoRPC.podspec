@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'B2Beauty-ProtoRPC'
-  spec.version      = '0.0.15'
+  spec.version      = '0.0.17'
   spec.license      = { type: 'BSD' }
   spec.homepage     = 'http://www.beautydate.com'
   spec.authors      = { 'Leonardo Saraiva' => 'leonardo.saraiva@beautydate.com', 'Leonardo Ferreira' => 'leonardo.ferreira@beautydate.com' }

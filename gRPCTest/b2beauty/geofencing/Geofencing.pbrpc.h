@@ -1,4 +1,3 @@
-//#import "b2beauty/geofencing/Geofencing.pbobjc.h"
 #import <B2Beauty-ProtoRPC/Geofencing.pbobjc.h>
 
 #import <ProtoRPC/ProtoService.h>
